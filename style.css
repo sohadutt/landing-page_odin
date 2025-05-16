@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.recipies img {
+    width: 200px;
+    border: 5px solid skyblue;
+    border-radius: 10px;
+
+}
+
+.recipe-div {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 0px;
+}
+
+ 
+li, a {
+    list-style: none;
+    text-decoration: none;
+    color: grey;
+    font-weight: 600;
+}
+
+header {
+    color: grey;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+ul {
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+}
+
+top {
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    max-height: 350px;
+}
+
